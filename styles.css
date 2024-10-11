@@ -1,0 +1,73 @@
+*{
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{    
+    text-align:center;
+
+}
+
+li {
+    list-style-type: none;
+  }
+  .letraum{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(235, 171, 94, 0.993);
+justify-content: center;
+padding: 20px;
+  }
+  ul li{
+    margin: 0px 30px;
+  }
+  ul li a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: padding 0.3s;
+  }
+  header h1{
+    padding: 60px;
+    background-color: rgba(235, 171, 94, 0.993);
+  }
+  ul li a:hover{
+    padding: 20px;
+  }
+  section{
+    background:url(https://i1.wp.com/blog.connectplug.com.br/wp-content/uploads/2021/09/clothing-store-interior-visualization-3d-illustration.jpg?resize=1024%2C640&ssl=1);
+    height: 100vh;
+  }
+  @media(max-width:900px){
+
+    
+  .letraum{
+    
+    top: 0%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(235, 171, 94, 0.993);
+justify-content: center;
+padding: 20px;
+  }
+  ul li{
+    margin: 0px 7px;
+    margin-right: 7px;
+  }
+  ul li a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: padding 0.3s;
+  }
+  }
+  
